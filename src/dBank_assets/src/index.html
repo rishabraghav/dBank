@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>dBank</title>
-    <base href="/" />
-    <link rel="icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main>
-      <img src="logo.png" alt="DFINITY logo" />
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dBank</title>
+</head>
+<body>
+    <section id="container">
+      <img alt="dbank-logo" src="">
+      <h1>Current Balance $<span>100</span></h1>
       <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
+        <input id="topup" placeholder="TopUp" type= "number" value=""/>
+        <input id="withdraw" placeholder="Withdraw" value=""/>
+        <input id="submit-btn" type="submit" value="Finalise Transaction" />
       </form>
-      <section id="greeting"></section>
-    </main>
-  </body>
+    </section>
+</body>
 </html>

@@ -1,0 +1,7 @@
+service : {
+  checkBal: () -> (float64) query;
+  compound: () -> (float64);
+  showTime: () -> (int) query;
+  topUp: (float64) -> () oneway;
+  widthrawl: (float64) -> () oneway;
+}
